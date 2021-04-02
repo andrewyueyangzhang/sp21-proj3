@@ -510,6 +510,10 @@
       <a name="label" val="J"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(720,250)" name="Constant">
+      <a name="value" val="0x0"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(740,110)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="S"/>
@@ -680,6 +684,7 @@
     <wire from="(720,150)" to="(730,150)"/>
     <wire from="(720,180)" to="(730,180)"/>
     <wire from="(720,230)" to="(740,230)"/>
+    <wire from="(720,250)" to="(750,250)"/>
     <wire from="(730,150)" to="(730,160)"/>
     <wire from="(730,160)" to="(760,160)"/>
     <wire from="(730,170)" to="(730,180)"/>
@@ -692,6 +697,12 @@
     <wire from="(740,690)" to="(770,690)"/>
     <wire from="(740,80)" to="(750,80)"/>
     <wire from="(750,140)" to="(760,140)"/>
+    <wire from="(750,190)" to="(750,200)"/>
+    <wire from="(750,190)" to="(760,190)"/>
+    <wire from="(750,200)" to="(750,210)"/>
+    <wire from="(750,200)" to="(760,200)"/>
+    <wire from="(750,210)" to="(750,250)"/>
+    <wire from="(750,210)" to="(760,210)"/>
     <wire from="(750,80)" to="(750,140)"/>
     <wire from="(780,220)" to="(780,260)"/>
     <wire from="(800,180)" to="(810,180)"/>
