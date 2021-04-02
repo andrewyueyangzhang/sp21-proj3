@@ -157,7 +157,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#/Users/andrewzhang/Desktop/berkeley/spring 2021/cs61c/proj3/sp21-proj3-andrew200101/harnesses/cpu-harness.circ" name="6"/>
+  <lib desc="file#../../../harnesses/cpu-harness.circ" name="6"/>
   <main name="run_main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>

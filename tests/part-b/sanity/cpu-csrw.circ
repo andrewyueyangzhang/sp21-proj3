@@ -140,7 +140,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#cpu-harness.circ" name="6"/>
+  <lib desc="file#../../../harnesses/csr-harness.circ" name="6"/>
   <main name="run_main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -206,6 +206,12 @@
       <a name="output" val="true"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(1090,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="tohost"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(1130,760)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="16"/>
@@ -226,7 +232,7 @@
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(1630,980)" name="Constant">
-      <a name="value" val="0x4258"/>
+      <a name="value" val="0x3"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(1750,970)" name="Pin">
@@ -361,7 +367,7 @@
       <a name="addrWidth" val="14"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 14 32
-0
+500293 51e29073
 </a>
       <a name="dataWidth" val="32"/>
     </comp>
@@ -377,9 +383,10 @@
       <a name="font" val="SansSerif plain 24"/>
       <a name="text" val="Instruction Memory"/>
     </comp>
-    <comp lib="6" loc="(530,270)" name="cpu_harness"/>
+    <comp lib="6" loc="(530,270)" name="csr_harness"/>
     <wire from="(1000,110)" to="(1000,170)"/>
     <wire from="(1070,760)" to="(1110,760)"/>
+    <wire from="(1090,110)" to="(1090,190)"/>
     <wire from="(1110,660)" to="(1110,760)"/>
     <wire from="(1110,660)" to="(1140,660)"/>
     <wire from="(1110,760)" to="(1130,760)"/>
@@ -416,6 +423,7 @@
     <wire from="(530,390)" to="(780,390)"/>
     <wire from="(530,410)" to="(810,410)"/>
     <wire from="(530,430)" to="(840,430)"/>
+    <wire from="(530,450)" to="(870,450)"/>
     <wire from="(550,110)" to="(550,150)"/>
     <wire from="(550,150)" to="(690,150)"/>
     <wire from="(550,250)" to="(550,270)"/>
@@ -435,6 +443,8 @@
     <wire from="(820,110)" to="(820,140)"/>
     <wire from="(840,170)" to="(1000,170)"/>
     <wire from="(840,170)" to="(840,430)"/>
+    <wire from="(870,190)" to="(1090,190)"/>
+    <wire from="(870,190)" to="(870,450)"/>
     <wire from="(900,660)" to="(1110,660)"/>
     <wire from="(910,110)" to="(910,150)"/>
   </circuit>
