@@ -37,7 +37,11 @@ addi x24 x1 -50
 addi x25 x0 111
 addi x26 x1 -50
 addi x27 x1 -50
-addi x27 x0 111
+addi x28 x0 111
 addi x29 x1 -50
 addi x30 x0 111
 addi x31 x1 -50
+
+
+auipc ra 4
+auipc ra -4

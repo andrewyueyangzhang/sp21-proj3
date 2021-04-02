@@ -5,8 +5,10 @@ lui s1 3
 lui t2 1
 
 add ra t0 s0
+add x31 t0 s0
 
 mul ra t0 a0
+mul x31 t0 s0
 
 sub ra s0 t0
 sub ra t0 s0
@@ -16,6 +18,13 @@ sll ra a0 s0
 
 mulh ra a0 t0
 mulh ra t0 a0
+
+addi t0 x0 2047
+addi s0 x0 2047
+mulhu ra a0 t0
+mulhu ra t0 a0
+lui t0 5555
+lui s0 33
 
 slt ra a0 t0
 slt ra t0 s0

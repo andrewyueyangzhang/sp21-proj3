@@ -7,4 +7,4 @@ jal x0 second_jump
 first_jump:
     jalr x0 ra 0
 second_jump: 
-    li s1 -555
+    addi s1 x0 -555
