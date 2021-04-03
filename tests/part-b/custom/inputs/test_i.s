@@ -43,5 +43,5 @@ addi x30 x0 111
 addi x31 x1 -50
 
 
-auipc ra 4
-auipc ra -4
+auipc sp 0x100
+auipc sp 0x100

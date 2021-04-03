@@ -21,8 +21,8 @@ mulh ra t0 a0
 
 addi t0 x0 2047
 addi s0 x0 2047
-mulhu ra a0 t0
-mulhu ra t0 a0
+mulhu ra s0 t0
+mulhu ra t0 s0
 lui t0 5555
 lui s0 33
 

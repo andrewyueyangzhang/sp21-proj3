@@ -21,6 +21,7 @@ branch_3:
     bne s0 s1 break
 
 break:
-    beq x0 x0 0x400
+    beq x0 x0 2047
+	beq x0 x0 -2048
     addi ra x0 0
 
