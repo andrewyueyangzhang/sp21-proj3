@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.4.3-61c.cc0f4a6" version="1.0">
+<project source="3.4.3-61c.db850b2" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -226,7 +226,7 @@
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(1630,980)" name="Constant">
-      <a name="value" val="0x2e"/>
+      <a name="value" val="0x3e"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(1750,970)" name="Pin">
@@ -361,12 +361,7 @@
       <a name="addrWidth" val="14"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 14 32
-ab00093 c800113 21106a3 2110723 21107a3 2110823 2d10083 2e10083
-2f10083 3010083 111023 1110a3 111123 11083 111083 211083
-6111c23 6111ca3 6111d23 7811083 7911083 7a11083 112023 112223
-112423 12083 412083 812083 80000093 f9c00113 1105a3 b10083
-1112a3 511083 112023 12083 80000093 7ff00113 1105a3 b10083
-1112a3 511083 112023 12083
+AB00093 19000113 21106A3 2110723 21107A3 2110823 2D10083 2E10083 2F10083 3010083 111023 1110A3 111123 11083 111083 211083 6111C23 6111CA3 6111D23 7811083 7911083 7A11083 112023 112223 112423 12083 412083 812083 80000093 19000113 FE110FA3 FE110F23 FE110CA3 FFF10083 FFE10083 FF910083 FE111FA3 FE111F23 FE111DA3 FFF10083 FFE10083 FFB10083 FE112E23 FFC12083 80000093 F9C00113 1105A3 B10083 1112A3 511083 112023 12083 80000093 7FF00113 1105A3 B10083 1112A3 511083 112023 12083
 </a>
       <a name="dataWidth" val="32"/>
     </comp>

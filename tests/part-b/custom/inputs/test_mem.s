@@ -1,5 +1,5 @@
 addi ra x0 0xAB
-addi sp x0 200
+addi sp x0 400
 
 
 sb ra 45(sp)
@@ -32,6 +32,29 @@ sw ra 8(sp)
 lw ra 0(sp)
 lw ra 4(sp)
 lw ra 8(sp)
+
+
+addi ra x0 -2048
+addi sp x0 400
+
+sb ra -1(sp)
+sb ra -2(sp)
+sb ra -7(sp)
+lb ra -1(sp)
+lb ra -2(sp)
+lb ra -7(sp)
+
+
+sh ra -1(sp)
+sh ra -2(sp)
+sh ra -5(sp)
+lb ra -1(sp)
+lb ra -2(sp)
+lb ra -5(sp)
+
+sw ra -4(sp)
+lw ra -4(sp)
+
 
 addi ra x0 -2048
 addi sp x0 -100
