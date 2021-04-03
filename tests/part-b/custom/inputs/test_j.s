@@ -8,12 +8,13 @@ second_jump:
 third_jump:
     addi s1 x0 5
     addi s0 x0 0
-    jalr s1 ra fourth_jump
+    jal ra fifth
 
 fourth_jump: 
     addi s0 s0 1
     beq s0 s1 exit
-    jalr x0 ra -12
+    jalr x0 ra 0
+    
 
 fifth:
     addi s1 x0 5
@@ -27,6 +28,7 @@ sixth:
 
 exit:
     jal ra 16384
+
 
 
 
