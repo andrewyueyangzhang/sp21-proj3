@@ -8,7 +8,7 @@ second_jump:
 third_jump:
     addi s1 x0 5
     addi s0 x0 0
-    jalr s1 ra 4
+    jalr s1 ra fourth_jump
 
 fourth_jump: 
     addi s0 s0 1
